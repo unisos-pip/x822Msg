@@ -9,7 +9,7 @@ SEED="
 *  /[dblock]/ /Seed/ :: [[file:/bisos/core/bsip/bin/seedPypiProc.sh]] | 
 "
 FILE="
-*  /This File/ :: /bisos/git/bxRepos/unisos-pip/x822Msg/dev/pypiProc.sh 
+*  /This File/ :: /bisos/git/auth/bxRepos/unisos-pip/x822Msg/py3/pypiProc.sh 
 "
 if [ "${loadFiles}" == "" ] ; then
     /bisos/core/bsip/bin/seedPypiProc.sh -l $0 "$@" 
